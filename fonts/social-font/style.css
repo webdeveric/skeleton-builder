@@ -1,0 +1,121 @@
+@font-face {
+	font-family: 'social-font';
+	src:url('fonts/social-font.eot');
+	src:url('fonts/social-font.eot?#iefix') format('embedded-opentype'),
+		url('fonts/social-font.woff') format('woff'),
+		url('fonts/social-font.ttf') format('truetype'),
+		url('fonts/social-font.svg#social-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'social-font';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-facebook, .icon-facebook-2, .icon-facebook-3, .icon-twitter, .icon-twitter-2, .icon-twitter-3, .icon-linkedin, .icon-blogger, .icon-blogger-2, .icon-youtube-sign, .icon-youtube, .icon-youtube-play, .icon-feed, .icon-feed-2, .icon-feed-3, .icon-pinterest, .icon-pinterest-2, .icon-github, .icon-github-2, .icon-apple, .icon-tux, .icon-windows8, .icon-android, .icon-html5, .icon-html5-2, .icon-github-3, .icon-github-4 {
+	font-family: 'social-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-facebook:before {
+	content: "\e000";
+}
+.icon-facebook-2:before {
+	content: "\e001";
+}
+.icon-facebook-3:before {
+	content: "\e002";
+}
+.icon-twitter:before {
+	content: "\e003";
+}
+.icon-twitter-2:before {
+	content: "\e004";
+}
+.icon-twitter-3:before {
+	content: "\e005";
+}
+.icon-linkedin:before {
+	content: "\e006";
+}
+.icon-blogger:before {
+	content: "\e007";
+}
+.icon-blogger-2:before {
+	content: "\e008";
+}
+.icon-youtube-sign:before {
+	content: "\e009";
+}
+.icon-youtube:before {
+	content: "\e00a";
+}
+.icon-youtube-play:before {
+	content: "\e00b";
+}
+.icon-feed:before {
+	content: "\e00c";
+}
+.icon-feed-2:before {
+	content: "\e00d";
+}
+.icon-feed-3:before {
+	content: "\e00e";
+}
+.icon-pinterest:before {
+	content: "\e00f";
+}
+.icon-pinterest-2:before {
+	content: "\e010";
+}
+.icon-github:before {
+	content: "\e011";
+}
+.icon-github-2:before {
+	content: "\e012";
+}
+.icon-apple:before {
+	content: "\e013";
+}
+.icon-tux:before {
+	content: "\e014";
+}
+.icon-windows8:before {
+	content: "\e015";
+}
+.icon-android:before {
+	content: "\e016";
+}
+.icon-html5:before {
+	content: "\e017";
+}
+.icon-html5-2:before {
+	content: "\e018";
+}
+.icon-github-3:before {
+	content: "\e019";
+}
+.icon-github-4:before {
+	content: "\e01a";
+}
