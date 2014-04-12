@@ -35,7 +35,7 @@
 
 */
 
-namespace WDE;
+namespace WDE\SkeletonBuilder;
 
 class Skeleton_Entry {
 	public $slug;
@@ -70,7 +70,7 @@ if( ! function_exists( 'json_last_error_msg' ) ){
 	}
 }
 
-class Skeleton_Builder_Plugin extends Plugin {
+class Skeleton_Builder_Plugin extends \WDE\PluginLibrary\Plugin {
 
 	const VERSION = '0.3.0';
 
@@ -92,7 +92,7 @@ class Skeleton_Builder_Plugin extends Plugin {
 
 	public function initRequirements(){
 		try{
-			$requirements = new Plugin_Requirements( $this );
+			$requirements = new \WDE\PluginLibrary\Plugin_Requirements( $this );
 			$requirements->wp('3.5')->php('5.3');
 			return $this->setRequirements( $requirements );
 		} catch( Exception $e ) {
