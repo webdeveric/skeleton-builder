@@ -2,9 +2,9 @@
 Contributors: webdeveric, timwickstrom
 Donate link: http://webdeveric.com/donate/
 Tags: disable, plugins, update, admin
-Requires at least: 3.0.0
-Tested up to: 3.6.1
-Stable tag: 0.3.0
+Requires at least: 3.5.0
+Tested up to: 3.9
+Stable tag: 0.3.1
 
 When you have a fresh install of WP and you're about to enter content, this plugin can save you a lot of time by automatically creating blank pages/posts/custom post type.
 It can also create a nav menu based on your site structure so you don't have to manually create one later.
