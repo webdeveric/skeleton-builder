@@ -1,5 +1,4 @@
 <?php
-
 $help = array();
 
 $help['Instructions']=<<<INTRO
@@ -102,14 +101,12 @@ $help['Contact Us']=<<<CONTACT_US
 			<h2>Eric King</h2>
 			<div class="social-icons">
 				<a data-icon="&#xe003;" href="https://twitter.com/webdeveric" target="_blank"></a>
-				<a data-icon="&#xe006;" href="https://www.linkedin.com/in/ericking" target="_blank"></a>
 				<a data-icon="&#xe011;" href="http://git.webdeveric.com/" target="_blank"></a>
-				
 			</div>
 			<dl>
 				<dt>Website</dt>
-				<dd><a href="http://webdeveric.com/" target="_blank">webdeveric.com</a></dd>
-				<dd><a href="http://parthenonpub.com/" target="_blank">parthenonpub.com</a></dd>
+				<dd><a href="http://phplug.in/" target="_blank">phplug.in</a></dd>
+				<dd><a href="http://webdeveric.com/" target="_blank">webdeveric.com</a></dd>				
 			</dl>
 		</div>
 	</li><li>
@@ -118,13 +115,11 @@ $help['Contact Us']=<<<CONTACT_US
 			<h2>Tim Wickstrom</h2>
 			<div class="social-icons">
 				<a data-icon="&#xe003;" href="https://twitter.com/timwickstrom" target="_blank"></a>
-				<a data-icon="&#xe006;" href="https://www.linkedin.com/in/timwickstrom" target="_blank"></a>
 				<a data-icon="&#xe019;" href="https://github.com/twickstrom" target="_blank"></a>
 			</div>
 			<dl>
 				<dt>Website</dt>
 				<dd><a href="http://timwickstrom.com/" target="_blank">timwickstrom.com</a></dd>
-				<dd><a href="http://parthenonpub.com/" target="_blank">parthenonpub.com</a></dd>
 			</dl>
 		</div>
 	</li>
