@@ -1,9 +1,8 @@
 === Skeleton Builder ===
 Contributors: webdeveric, timwickstrom
-Donate link: http://webdeveric.com/donate/
-Tags: disable, plugins, update, admin
+Tags: skeleton, builder, batch, drag and drop, pages, posts, custom post types, navigation menus
 Requires at least: 3.5.0
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: 0.3.1
 
 When you have a fresh install of WP and you're about to enter content, this plugin can save you a lot of time by automatically creating blank pages/posts/custom post type.
@@ -27,6 +26,9 @@ Features:
 1. Use it in `Tools > Skeleton Builder`
 
 == Changelog ==
+
+= 0.3.1 =
+* Updated coding standards.
 
 = 0.3 =
 * Big overhaul - nearly complete rewrite. This plugin now uses my WDE Plugin Library.
