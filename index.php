@@ -17,7 +17,7 @@ if ( ! is_admin())
 
 if ( ! defined('WDE_PLUGIN_LIB_VERSION')) {
 
-    public function skeleton_builder_requirements_not_met()
+    function skeleton_builder_requirements_not_met()
     {
         echo '<div class="error"><p><strong><a href="http://webdeveric.com/" target="_blank">WDE Plugin Library</a></strong> is required for Skeleton Builder. Please install and activate that plugin first.</p><p>Skeleton Builder has been deactivated.</p></div>';
         deactivate_plugins( plugin_basename( __FILE__ ) );

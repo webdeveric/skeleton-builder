@@ -63,7 +63,8 @@ class Skeleton_Entry
     This function is native to PHP 5.5.
 */
 if (! function_exists('json_last_error_msg')) {
-    public function json_last_error_msg()
+
+    function json_last_error_msg()
     {
         static $errors = array(
             JSON_ERROR_NONE           => null,
@@ -77,6 +78,7 @@ if (! function_exists('json_last_error_msg')) {
 
         return array_key_exists($error, $errors) ? $errors[$error] : "Unknown error ({$error})";
     }
+
 }
 
 class SkeletonBuilderPlugin extends Plugin
@@ -398,7 +400,7 @@ class SkeletonBuilderPlugin extends Plugin
         return true;
     }
 
-    protected post_field($key, $default = '')
+    protected function post_field($key, $default = '')
     {
         if (filter_has_var(INPUT_POST, $key))
             return trim(filter_input(INPUT_POST, $key));
