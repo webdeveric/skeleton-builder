@@ -45,3 +45,8 @@ Features:
 
 = 0.1 =
 * Initial build.
+
+== Todo ==
+
+* Use updated DI container from http api debug plugin.
+* Update styles to match WP 4
